@@ -1,0 +1,24 @@
+Q .1 Normalization:
+==>  normalize is a process in which we avoid data inconsistency and redundency for better database.
+     or to avoid data anomly.
+     there is three type of anomly UPDATE, INSERT and DELET;
+     
+     for example if in a person table where we have two rows for same person it makes anomly;
+    
+     to avoid this kind of situation we use normalization.
+
+Q 2. 2NF:
+
+==>  to make a table in 2NF form we want to condotion:
+     1. tabble should be in 1NF form
+     2. non prime data should not be dependent to primary key or prime data.
+     
+     if we have a table where a person have to emails
+     then in 1NF form we have two rows for that person.
+     and person age also in these 2 rows so it's not 2NF form
+     
+     for acheive 2NF we have to split in 2 tables
+     where in 1st table we can have primary key and age for every person in single row
+     and in 2nd table we dont have to add age coloum.
+
+      
